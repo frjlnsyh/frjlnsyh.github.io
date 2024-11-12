@@ -17,17 +17,11 @@
     color: #FFDDAE;
   }
   html {
-    overflow: hidden;
-    scroll-behavior: smooth;
   }
     * {
       font-family: arial;
       margin: 0px;
       padding: 0px;
-    }
-    body {
-      background: linear-gradient(#C6E7FF, #D4F6FF, #FBFBFB, #FFDDAE);
-      overflow: hidden;
     }
     a {
       text-decoration: none;
@@ -40,27 +34,30 @@
 <body>
   
   <nav>
-    <ul class="active" id="nav-list">
+    <div class="nav-self-brand">
+      <div class="brand">
+        <h5>Logo</h5>
+      </div>
+      <div class="button-nav">
+        <button class="show"><i class="fa-solid fa-bars-staggered"></i></button>
+        <button class="hide"><i class="fa-brands fa-xing"></i></button>
+      </div>
+    </div>
+    <ul id="nav-list">
       <li><a href="#head" id="li-1">Beranda</a></li>
       <li><a href="#content-1" id="li-2">Tentang Saya</a></li>
       <li><a href="#content-2" id="li-3">Kemampuan</a></li>
       <li><a href="#content-3" id="li-4">Portofolio</a></li>
     </ul>
-    <section class="hide active"><i class="fa-solid fa-eye"></i></section>
-    <section class="show active"><i class="fa-solid fa-eye-slash"></i></section>
   </nav>
 
   <main>
       <div class="container">
-        <div class="isi-content" id="head">
-          <div class="isi-content-text">
-            <h1>Selamat Datang</h1>
-            <a href="">Cari Tau Tentang Aku Yuk..</a>
-          </div>
-        <img src="" alt="">
-        <section class="circle"></section>
+        <div class="isi-content">
+          <h1>Halo</h1>
+        </div>
       </div>
-      <div class="content-1" id="content-1">
+      <!-- <div class="content-1" id="content-1">
         <div class="isi-content-1">
         <div class="isi-content-1-1">
           <h2>Tentang Saya</h2>
@@ -95,14 +92,22 @@
       <div class="content-3" id="content-3">
         <h2>Portofolio</h2>
         <a href="">Liaht Portofolio</a>
-      </div>
-      <<!-- div class="content-4"></div> -->
+      </div> -->
+      <!-- div class="content-4"></div> -->
     </div>
   </main>
   
   <footer>
     <div class="footer-lits">
-      
+      <div class="footer-brand">
+        Ferdi Juliansyah
+      </div>
+      <p>Web Development</p>
+    </div>
+    <div class="footer-detail">
+      <ul>
+        <li></li>
+      </ul>
     </div>
   </footer>
   
