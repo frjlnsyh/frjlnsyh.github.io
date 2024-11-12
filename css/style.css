@@ -7,7 +7,6 @@ main .container > * {
 
   /* Footer */
 
-@media (max-width:468px) {
   footer {
     background-color: black;
     height: 120px;
@@ -23,6 +22,4 @@ main .container > * {
   footer .footer-lits p{
     font-size: 10px;
   }
-}
-
   /* Close Footer */
