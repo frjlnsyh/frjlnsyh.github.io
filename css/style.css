@@ -20,7 +20,7 @@ main .container > * {
   top: 60px;
   right: -10%;
   width: 90%;
-  height: 45vh;
+  height: 240px;
   padding: 35px 0px;
   background-color: #133E87;
   color: black;
@@ -28,14 +28,14 @@ main .container > * {
   box-shadow: -10px 10px 15px 1px #94a1ad80;
 }
 .container .isi-content .content-head-1 .content-1-text {
-  padding: 10px 0 35px 0;
+  padding: 10px 0 20px 0;
 }
 .container .isi-content .content-head-1 .content-1-text h5{
   font-size: 1.3rem;
   color: aqua;
 }
 .container .isi-content .content-head-1 .content-1-text hr{
-  margin: 0 auto;
+  margin: 8px auto;
   width: 50px;
   color: #CBDCEB;
   border: 2.5px solid;
