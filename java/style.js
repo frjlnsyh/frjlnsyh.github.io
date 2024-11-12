@@ -1,8 +1,10 @@
 document.querySelector(".show").addEventListener("click", function () {
   const navUl = document.getElementById("nav-list");
   const hide = document.querySelector(".hide");
+  const nav = document.querySelector("html");
 
   this.classList.add("active");
+  nav.classList.add("active");
   navUl.classList.add("active");
   hide.classList.add("active");
 });
@@ -10,8 +12,10 @@ document.querySelector(".show").addEventListener("click", function () {
 document.querySelector(".hide").addEventListener("click", function () {
   const navUl = document.getElementById("nav-list");
   const show = document.querySelector(".show");
+  const nav = document.querySelector("html");
 
   this.classList.remove("active");
+  nav.classList.remove("active");
   navUl.classList.remove("active");
   show.classList.remove("active");
 });

@@ -1,8 +1,15 @@
+@media (max-width:597px) {
+html.active {
+  overflow: hidden;
+}
+body {
+  background-color: #F3F3E0;
+}
 main .container {
   /* padding: 10px; */
 }
 main .container > * {
-  height: 130vh;
+  z-index: -1;
 }
 .container .isi-content {
   position: relative;
@@ -10,26 +17,27 @@ main .container > * {
 }
 .container .isi-content .content-head-1 {
   position: relative;
-  top: -15%;
+  top: 60px;
   right: -10%;
   width: 90%;
   height: 45vh;
   padding: 35px 0px;
-  background-color: black;
-  color: white;
+  background-color: #133E87;
+  color: black;
   text-align: center;
-  box-shadow: -10px 10px 20px 1px rgba(128, 128, 128, 0.5);
+  box-shadow: -10px 10px 15px 1px #94a1ad80;
 }
 .container .isi-content .content-head-1 .content-1-text {
   padding: 10px 0 35px 0;
 }
 .container .isi-content .content-head-1 .content-1-text h5{
   font-size: 1.3rem;
+  color: aqua;
 }
 .container .isi-content .content-head-1 .content-1-text hr{
   margin: 0 auto;
   width: 50px;
-  color: aqua;
+  color: #CBDCEB;
   border: 2.5px solid;
 }
 .container .isi-content .content-head-1 img{
@@ -40,11 +48,11 @@ main .container > * {
 }
 .container .isi-content .content-head-1 .button-content-2 a {
   text-decoration: none;
-  color: black;
-  background-color: aqua;
+  color: aqua;
+  background-color: #608BC1;
   padding: 8px 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px 3px 1px black;
+  box-shadow: 3px 3px 3px 1px #cbdceb91;
   font-size: 0.8rem;
   font-weight: 600;
 } 
@@ -63,7 +71,10 @@ main .container > * {
   padding: 5px 10px;
 }
 .container .isi-content .content-head-2 {
-  padding: 10px 15px;
+  position: relative;
+  top: 80px;
+  padding: 50px 15px 150px 15px;
+}
 }
 /* .container .isi-content .content-head-2 > * {
   padding: 10px;
@@ -91,8 +102,7 @@ main .container > * {
 
   footer {
     position: relative;
-    background-color: gray;
-    color: white;
+    background-color: #CBDCEB;
   }
   footer .footer-lits {
     display: flex;
@@ -100,9 +110,11 @@ main .container > * {
     font-size: 0.9rem;
     padding: 15px 10px;
   }
+  footer .footer-lits > * {
+  }
   footer .footer-lits a{ 
+    color: black;
     text-decoration: none;
-    color: rgb(160, 160, 160);
   }
   footer .footer-medsos {
     padding: 15px 10px;
