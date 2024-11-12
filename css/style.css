@@ -13,13 +13,5 @@ main .container > * {
     padding: 15px;
     color: white;
   }
-  footer .footer-lits {
   
-  }
-  footer .footer-lits .footer-brand {
-    font-size: 15px;
-  }
-  footer .footer-lits p{
-    font-size: 10px;
-  }
   /* Close Footer */
