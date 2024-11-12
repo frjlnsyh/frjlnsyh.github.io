@@ -1,7 +1,5 @@
-@media (max-width:468px) {
+@media (max-width:597px) {
   nav {
-    position: fixed;
-    width: 100%;
     color: white;
   }
   nav .nav-self-brand {
@@ -11,12 +9,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: brown;
+  }
+  nav .nav-self-brand .brand {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  nav .nav-self-brand .brand .circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 0 5px 0 0;
   }
   nav .nav-self-brand .button-nav {
     position: relative;
     top: 0px;
-    width: 10%;
+    width: 30px;
     height: 100%;
     display: flex;
   }
@@ -31,12 +41,12 @@
     position: absolute;
     z-index: -10;
     opacity: 0;
-    transition: 0.1s linear;
+    transition: 0.2s linear;
     rotate: -90deg;
   }
   nav .nav-self-brand .button-nav .hide.active {
     position: relative;
-    z-index: 0;
+    z-index: 999;
     opacity: 1;
     rotate: 0deg;
     color: red;
@@ -44,6 +54,7 @@
   nav .nav-self-brand .button-nav .show {
     position: relative;
     opacity: 1;
+    z-index: 999;
     transition: 0.2s linear;
   }
   nav .nav-self-brand .button-nav .show.active {
@@ -54,21 +65,21 @@
   }
   nav ul {
     position: fixed;
-    top: -40%;
+    z-index: 998;
+    top: -10%;
     opacity: 0;
-    padding: 130px 0 0 0;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: brown;
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: 0.4s linear;
+    justify-content: center;
+    transition: 0.3s linear;
   }
   nav ul.active {
     top: 0;
     opacity: 1;
-    transition: 0.4s linear;
   }
   nav ul li {
     height: 50px;
@@ -81,9 +92,14 @@
   nav ul li a:hover {
     font-size: 0.9rem;
   }
+  nav .bg-color {
+    width: 100%;
+    height: 30vh;
+    background-color: brown;
+  }
   
 }
-@media (min-width:469px) {
+@media (min-width:598px) {
   nav {
     position: fixed;
     width: 100%;
@@ -91,11 +107,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
-    background-color: black;
+    color: black;
   }
   nav .nav-self-brand {
     padding: 5px 10px;
+  }
+  nav .nav-self-brand .brand {
+    font-size: 1.3rem;
+    font-weight:600;
   }
   nav .nav-self-brand .button-nav {
     display: none;
@@ -114,8 +133,9 @@
     padding: 0px 10px;
   }
   nav ul li a {
-    color: white;
-    font-size: 0.9rem;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1rem;
   }
   nav ul li a:hover {
     font-size: 0.9rem;
