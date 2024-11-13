@@ -78,27 +78,126 @@ main .container > * {
   top: 80px;
   padding: 50px 15px 150px 15px;
 }
-}
-/* .container .isi-content .content-head-2 > * {
-  padding: 10px;
-}
-.container .isi-content .content-head-2 .content-2-text {
 
+.container-2 {
+  padding: 50px 15px;
+  max-width: 350px;
+  margin: 0 auto;
 }
-.container .isi-content .content-head-2 .button-content-2 {
+.container-2 h4 {
+  font-size: 1.3rem;
+  padding: 20px 0 20px 0;
+}
+.container-2 hr {
+  margin: 0 0 0 10px;
+  width: 100px;
+  border: 1.4px solid black;
+}
+.container-2 p {
+  padding: 0 0 8px 0;
+}
+.container-2 .squre {
+  width: 21px;
+  height: 21px;
+  margin: 0 10px 0 0;
+  background-color: black;
+}
+.container-2 .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 0 10px 0 0;
+  background-color: black;
+}
+.container-2 .button-container-2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 10px 0px;
 }
-.container .isi-content .content-head-2 .button-content-2 a {
+.container-2 ul li{
+  padding: 0 0 10px 0;
+}
+.container-2 .button-container-2 a {
   text-decoration: none;
-  color: black;
-  background-color: aqua;
-  padding: 7px 10px;
+  color: aqua;
+  background-color: #608BC1;
+  padding: 8px 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px 3px 1px black;
+  box-shadow: 3px 3px 3px 1px #cbdceb91;
   font-size: 0.8rem;
   font-weight: 600;
-} */
+} 
+.container-2 .brand-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 .resume-content-pendidikan {
+  position: relative;
+}
+.container-2 .resume-content-pendidikan .pendidikan {
+  display: flex;
+  align-items: center;
+}
+.container-2 .resume-content-pendidikan .resume-pendidikan {
+  background-color: #133E87;
+  color: aqua;
+  padding: 15px;
+  margin: 0 0 50px 0;
+  box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
+}
+
+
+.container-2 .resume-content-pengalaman {
+  position: relative;
+}
+.container-2 .resume-content-pengalaman .pengalaman {
+  display: flex;
+  align-items: center;
+}
+.container-2 .resume-content-pengalaman .resume-pengalaman {
+  background-color: #133E87;
+  color: aqua;
+  padding: 15px;
+  margin: 0 0 50px 0;
+  box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
+}
+
+
+.container-2 .resume-content-kemampuan {
+  position: relative;
+}
+.container-2 .resume-content-kemampuan .kemampuan {
+  display: flex;
+  align-items: center;
+}
+.container-2 .resume-content-kemampuan .resume-kemampuan {
+  display: flex;
+  justify-content: space-between;
+  background-color: #133E87;
+  color: aqua;
+  padding: 15px;
+  margin: 0 0 50px 0;
+  box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
+}
+
+
+.container-2 .resume-content-hobi {
+  position: relative;
+}
+.container-2 .resume-content-hobi .hobi {
+  display: flex;
+  align-items: center;
+}
+.container-2 .resume-content-hobi .resume-hobi {
+  background-color: #133E87;
+  color: aqua;
+  padding: 15px;
+  margin: 0 0 50px 0;
+  box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
+}
+
+}
 
 @media (min-width:598px) {
 body {
@@ -186,6 +285,144 @@ body {
 .container .isi-content-2 .content-head-2 .button-content-2 a:hover{
   transform: scale(1.1);
 }
+
+
+
+.container-2 {
+  padding: 150px 15px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.container-2 h4 {
+  font-size: 1.3rem;
+  padding: 20px 0 20px 0;
+}
+.container-2 hr {
+  margin: 0 0 0 10px;
+  width: 100px;
+  border: 1.4px solid black;
+}
+.container-2 p {
+  padding: 0 0 8px 0;
+}
+.container-2 .squre {
+  width: 21px;
+  height: 21px;
+  margin: 0 10px 0 0;
+  background-color: black;
+}
+.container-2 .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 0 10px 0 0;
+  background-color: black;
+}
+.container-2 .button-container-2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+.container-2 ul li{
+  padding: 0 0 10px 0;
+}
+.container-2 .button-container-2 a {
+  text-decoration: none;
+  color: aqua;
+  background-color: #608BC1;
+  padding: 8px 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 1px #cbdceb91;
+  font-size: 0.8rem;
+  font-weight: 600;
+} 
+.container-2 .brand-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 .resume-content-pendidikan {
+  position: relative;
+}
+.container-2 .resume-content-pendidikan .pendidikan {
+  display: flex;
+  align-items: center;
+}
+.container-2 .resume-content-pendidikan .resume-pendidikan {
+  display: flex;
+  align-items: center;
+  background-color: #133E87;
+  color: aqua;
+  padding: 15px;
+  margin: 0 0 50px 0;
+  box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
+}
+.container-2 .resume-content-pendidikan .resume-pendidikan > * { 
+  padding: 10px;
+}
+.container-2 .resume-content-pendidikan .resume-pendidikan .side-left{ 
+  min-width: 300px;
+}
+
+
+.container-2 .resume-content-pengalaman {
+  position: relative;
+}
+.container-2 .resume-content-pengalaman .pengalaman {
+  display: flex;
+  align-items: center;
+}
+.container-2 .resume-content-pengalaman .resume-pengalaman {
+  background-color: #133E87;
+  color: aqua;
+  padding: 15px;
+  margin: 0 0 50px 0;
+  box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
+}
+.container-2 .resume-content-pengalaman .pengalaman-content {
+  display: flex;
+  align-items: center;
+}
+.container-2 .resume-content-pengalaman .resume-pengalaman > * { 
+  padding: 10px;
+}
+.container-2 .resume-content-pengalaman .resume-pengalaman .side-left{ 
+  min-width: 300px;
+}
+
+
+.container-2 .resume-content-kemampuan {
+  position: relative;
+}
+.container-2 .resume-content-kemampuan .kemampuan {
+  display: flex;
+  align-items: center;
+}
+.container-2 .resume-content-kemampuan .resume-kemampuan {
+  display: flex;
+  justify-content: space-around;
+  background-color: #133E87;
+  color: aqua;
+  padding: 15px;
+  margin: 0 0 50px 0;
+  box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
+}
+
+
+.container-2 .resume-content-hobi {
+  position: relative;
+}
+.container-2 .resume-content-hobi .hobi {
+  display: flex;
+  align-items: center;
+}
+.container-2 .resume-content-hobi .resume-hobi {
+  background-color: #133E87;
+  color: aqua;
+  padding: 15px;
+  margin: 0 0 50px 0;
+  box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
+}
 }
 
 
@@ -230,6 +467,7 @@ body {
       background-color: #F3F3E0;
       display: flex;
       align-items: center;
+      box-shadow: 0px -10px 10px 0px rgba(0, 0, 0, 0.4);
     }
     footer .footer-lits {
       display: flex;
