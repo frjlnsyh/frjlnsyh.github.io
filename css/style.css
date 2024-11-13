@@ -44,6 +44,9 @@ main .container > * {
 }
 .container .isi-content .content-head-1 img{
   width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 100%;
 }
 .container .isi-content .content-head-1 .button-content-2 > * {
   margin: 0px 10px;
@@ -238,6 +241,9 @@ body {
   .container .isi-content-2 .content-head-1 img{ 
     padding: 10px 0 30px 0;
     width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 100%;
   }
   .container .isi-content-2 .content-head-1 .content-1-text h5{ 
     color: aqua;
