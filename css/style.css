@@ -127,7 +127,7 @@ body {
   .container .isi-content-2 .content-head-1 {
     position: relative;
     text-align: center;
-    height: 60vh;
+    height: 350px;
     padding: 10px 15px;
     background-color: #133E87;
     width: 100%;
@@ -185,6 +185,7 @@ body {
 } 
 .container .isi-content-2 .content-head-2 .button-content-2 a:hover{
   transform: scale(1.1);
+}
 }
 
 
