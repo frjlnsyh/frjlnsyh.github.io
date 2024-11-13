@@ -6,10 +6,8 @@ body {
   background-color: #F3F3E0;
 }
 main .container {
-  /* padding: 10px; */
 }
 main .container > * {
-  z-index: -1;
 }
 .container .isi-content {
   position: relative;
@@ -20,6 +18,7 @@ main .container > * {
 }
 .container .isi-content .content-head-1 {
   position: relative;
+  z-index: 10;
   top: 60px;
   right: -10%;
   width: 90%;
@@ -72,6 +71,10 @@ main .container > * {
 }
 .container .isi-content .content-head-1 .bottom-content-1 ul > * {
   padding: 5px 10px;
+}
+.container .isi-content .content-head-1 .bottom-content-1 ul li a { 
+  text-decoration: none;
+  color: black;
 }
 .container .isi-content .content-head-2 {
   position: relative;
@@ -262,6 +265,10 @@ body {
   .container .isi-content-2 .content-head-1 .bottom-content-1 ul > * {
     padding: 10px 15px;
     font-size: 1.4rem;
+  }
+  .container .isi-content-2 .content-head-1 .bottom-content-1 ul li a { 
+    text-decoration: none;
+    color: black;
   }
   .container .isi-content-2 .content-head-2 {
     width: 140%;
@@ -454,6 +461,11 @@ body {
     footer .footer-medsos ul > * {
       padding: 5px 10px;
       font-size: 1.5rem;
+      color: black;
+    }
+    footer .footer-medsos ul li a { 
+      color: black;
+      text-decoration: none;
     }
     footer .footer-detail {
       padding: 15px 10px;
@@ -467,7 +479,6 @@ body {
       background-color: #F3F3E0;
       display: flex;
       align-items: center;
-      box-shadow: 0px -10px 10px 0px rgba(0, 0, 0, 0.4);
     }
     footer .footer-lits {
       display: flex;
@@ -492,6 +503,10 @@ body {
     footer .footer-medsos ul > * {
       padding: 5px 10px;
       font-size: 1.1rem;
+    }
+    footer .footer-medsos ul li a { 
+      color: black;
+      text-decoration: none;
     }
     footer .footer-detail {
       margin: 0 0 0 auto;
