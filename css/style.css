@@ -15,6 +15,9 @@ main .container > * {
   position: relative;
   
 }
+.container .isi-content-2 {
+  display: none;
+}
 .container .isi-content .content-head-1 {
   position: relative;
   top: 60px;
@@ -25,7 +28,7 @@ main .container > * {
   background-color: #133E87;
   color: black;
   text-align: center;
-  box-shadow: -10px 10px 15px 1px #94a1ad80;
+  box-shadow: -10px 10px 15px 1px #94a1adb7;
 }
 .container .isi-content .content-head-1 .content-1-text {
   padding: 10px 0 20px 0;
@@ -44,7 +47,7 @@ main .container > * {
   width: 100px;
 }
 .container .isi-content .content-head-1 .button-content-2 > * {
-  margin: 10px;
+  margin: 0px 10px;
 }
 .container .isi-content .content-head-1 .button-content-2 a {
   text-decoration: none;
@@ -97,38 +100,165 @@ main .container > * {
   font-weight: 600;
 } */
 
+@media (min-width:598px) {
+body {
+    background-color: #F3F3E0;
+  }
+  main {
+  }
+  main .container {
+    position: relative;
+    z-index: 10;
+    }
+  .container .isi-content {
+    display: none;
+  }
+  .container .isi-content-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    height: 100vh;
+    margin: auto;
+  }
+  .container .isi-content-2 > *{
+    margin: 0px 10px;
+  }
+  .container .isi-content-2 .content-head-1 {
+    position: relative;
+    text-align: center;
+    height: 60vh;
+    padding: 10px 15px;
+    background-color: #133E87;
+    width: 100%;
+    box-shadow: -10px 10px 15px 1px #94a1adb7;
+  }
+  .container .isi-content-2 .content-head-1 img{ 
+    padding: 10px 0 30px 0;
+    width: 120px;
+  }
+  .container .isi-content-2 .content-head-1 .content-1-text h5{ 
+    color: aqua;
+    font-size: 1.8rem;
+  }
+  .container .isi-content-2 .content-head-1 .content-1-text hr{
+    width: 20%;
+    border: 2px solid aqua;
+    margin: 15px auto;
+  } 
+  .container .isi-content-2 .content-head-1 .content-1-text h6{
+    color: aqua;
+    font-size: 1rem;
+  }
+  .container .isi-content-2 .content-head-1 .bottom-content-1 ul{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;    
+  }
+  .container .isi-content-2 .content-head-1 .bottom-content-1 ul > * {
+    padding: 10px 15px;
+    font-size: 1.4rem;
+  }
+  .container .isi-content-2 .content-head-2 {
+    width: 140%;
+  }
+  
+.container .isi-content-2 .content-head-2 .button-content-2 > * {
+  margin: 0px 10px;
+}
+.container .isi-content-2 .content-head-2 .button-content-2 a {
+  text-decoration: none;
+  color: aqua;
+  background-color: #608BC1;
+  padding: 8px 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 1px #133E87;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: transform 0.2s ease-in-out; 
+  display: inline-block;
+} 
+.container .isi-content-2 .content-head-2 .button-content-2 a:hover{
+  transform: scale(1.1);
+}
+
 
   /* Footer */
+  @media (max-width:597px) {
+    footer {
+      position: relative;
+      background-color: #CBDCEB;
+    }
+    footer .footer-lits {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      padding: 15px 10px;
+    }
+    footer .footer-lits > * {
+    }
+    footer .footer-lits a{ 
+      color: black;
+      text-decoration: none;
+    }
+    footer .footer-medsos {
+      padding: 15px 10px;
+    }
+    footer .footer-medsos ul {
+      list-style: none;
+      display: flex;
+    }
+    footer .footer-medsos ul > * {
+      padding: 5px 10px;
+      font-size: 1.5rem;
+    }
+    footer .footer-detail {
+      padding: 15px 10px;
+      font-size: 1rem;
+    }
 
-  footer {
-    position: relative;
-    background-color: #CBDCEB;
   }
-  footer .footer-lits {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.9rem;
-    padding: 15px 10px;
-  }
-  footer .footer-lits > * {
-  }
-  footer .footer-lits a{ 
-    color: black;
-    text-decoration: none;
-  }
-  footer .footer-medsos {
-    padding: 15px 10px;
-  }
-  footer .footer-medsos ul {
-    list-style: none;
-    display: flex;
-  }
-  footer .footer-medsos ul > * {
-    padding: 5px 10px;
-    font-size: 1.5rem;
-  }
-  footer .footer-detail {
-    padding: 15px 10px;
-    font-size: 1rem;
+  @media (min-width:598px) {
+    footer {
+      position: relative;
+      background-color: #F3F3E0;
+      display: flex;
+      align-items: center;
+    }
+    footer .footer-lits {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      padding: 15px 10px;
+      width: 230px;
+    }
+    footer .footer-lits > * {
+    }
+    footer .footer-lits a{ 
+      color: black;
+      text-decoration: none;
+    }
+    footer .footer-medsos {
+      padding: 15px 10px;
+    }
+    footer .footer-medsos ul {
+      list-style: none;
+      display: flex;
+    }
+    footer .footer-medsos ul > * {
+      padding: 5px 10px;
+      font-size: 1.1rem;
+    }
+    footer .footer-detail {
+      margin: 0 0 0 auto;
+      padding: 15px 10px;
+      font-size: 0.8rem;
+    }
+    
   }
   /* Close Footer */
