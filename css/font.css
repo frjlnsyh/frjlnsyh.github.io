@@ -6,3 +6,11 @@
     font-family: "playwrite";
     src: url('../font/PlaywriteGBJ-VariableFont_wght.ttf');
 }
+@font-face {
+    font-family: "lemon";
+    src: url('../font/Lemon-Regular.ttf');
+}
+@font-face {
+    font-family: "marienda";
+    src: url('../font/Merienda-VariableFont_wght.ttf');
+}

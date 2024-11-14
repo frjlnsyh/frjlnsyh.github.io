@@ -22,7 +22,7 @@ document.querySelector(".hide").addEventListener("click", function () {
 
 // untuk setiap baris A yang berada di Nav Ul Li (A)
 
-const links = document.querySelectorAll('a');
+const links = document.querySelectorAll('nav ul li a');
 const hide = document.querySelector(".hide");
 const navUl = document.getElementById("nav-list");
 const show = document.querySelector(".show");

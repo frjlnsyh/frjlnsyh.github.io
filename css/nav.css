@@ -1,3 +1,8 @@
+
+nav .nav-self-brand .brand h5{ 
+  font-family: lemon;
+}
+
 @media (max-width:597px) {
   nav {
     position: unset;
@@ -15,6 +20,10 @@
     display: flex;
     align-items: center;
     width: 100%;
+  }
+  
+  nav .nav-self-brand .brand h5{ 
+    font-family: lemon;
   }
   nav .nav-self-brand .brand .circle{
     width: 25px;
