@@ -73,7 +73,7 @@ nav .nav-self-brand .brand h5{
   }
   nav ul {
     position: fixed;
-    top: -10%;
+    top: -5%;
     z-index: -5;
     opacity: 0;
     width: 100%;

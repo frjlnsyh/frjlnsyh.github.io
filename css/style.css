@@ -3,7 +3,7 @@ html.active {
   overflow: hidden;
 }
 body {
-  
+  background-color: #F3F3E0;
 }
 main .container {
 }
@@ -30,7 +30,7 @@ main .container > * {
   box-shadow: -10px 10px 15px 1px #94a1adb7;
 }
 .container .isi-content .content-head-1 .content-1-text {
-  padding: 10px 0 20px 0;
+  padding: 10px 0 10px 0;
 }
 .container .isi-content .content-head-1 .content-1-text h5{
   font-size: 1.3rem;
@@ -106,14 +106,14 @@ main .container > * {
   width: 21px;
   height: 21px;
   margin: 0 10px 0 0;
-  background-color: black;
+  background-color: aqua;
 }
 .container-2 .circle {
   width: 15px;
   height: 15px;
   border-radius: 100%;
   margin: 0 10px 0 0;
-  background-color: black;
+  background-color: aqua;
 }
 .container-2 .button-container-2 {
   display: flex;
@@ -203,6 +203,144 @@ main .container > * {
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
 }
 
+/* Continaer 3 */
+.container-3 {
+  overflow: hidden;
+}
+.container-3 .squre {
+  width: 21px;
+  height: 21px;
+  margin: 0 10px 0 0;
+  background-color: aqua;
+}
+.container-3 .hub-say {
+  margin: 80px 0 80px 0;
+}
+.container-3 .head-hub { 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 50px 0;
+} 
+.container-3 .card-hub {
+  max-width: 60%;
+  margin: 0 5px 0 auto;
+  padding: 25px 70px 25px 25px;
+  background-color: brown;
+  box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.57);
+}
+.container-3 .card-hub > * {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 30px 0;
+}
+.container-3 .card-hub > * label{ 
+  padding: 0 0 15px 0;
+}
+.container-3 .card-hub > * input ,.container-3 .card-hub > * textarea{ 
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  resize: none;
+  transition: 0.2s ease-in-out;
+  padding: 5px;
+}
+.container-3 input:focus,.container-3 textarea:focus {
+  border-bottom: 1px solid aqua;
+  outline: none;
+}
+.container-3 .card-hub .sub-but button {
+  width: 90px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 7px 15px;
+  border: none;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.374);
+}
+.container-3 .card-hub .sub-but button:hover { 
+  transform: scale(1.15);
+}
+.container-3 .card-hub .card-hub-fl {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.container-3 .card-hub .card-hub-fl > *{ 
+  padding: 0 0 30px 0;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.container-3 .card-hub .card-hub-fl label{ 
+  padding: 0 0 15px 0;
+}
+
+/* COntainer 4 */
+
+.container-4 {
+  margin: 50px 0;
+}
+.container-4 .head-cont {
+  text-align: center;
+  padding: 15px 15px 60px 15px;
+}
+.container-4 .head-cont .head-content-4 { 
+  padding: 0 0 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-4 .head-cont .head-content-4 .squre{ 
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+  background-color: aqua;
+}
+.container-4 .card-port .card-body {
+  background-color: brown;
+  max-width: 80%;
+  position: relative;
+  right: 0;
+  margin: 0 5px 0 auto;
+  box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.57);
+}
+.container-4 .card-port .card-body .head-card-text > * {
+  margin: 0 0 20px 0;
+}
+.container-4 .card-port .card-body .head-card-text {
+  padding: 20px 25px;
+}
+.container-4 .card-port .card-body .head-card-text a { 
+  text-decoration: none;
+  background-color: white;
+  padding: 7px 15px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: -2px 2px 5px 0px black;
+}
+.container-4 .card-port .card-body .head-card-text .head-card-text-rel {
+  position: relative;
+}
+.container-4 .card-port .card-body .head-card-text .head-card-text-rel .squre-2{ 
+  width: 43px;
+  height: 40px;
+  background-color: aqua;
+  position: absolute;
+  left: -54px;
+  clip-path: inset(0 0 0 28.5px);
+}
+.container-4 .card-port .card-body .body-card-img { 
+}
+.container-4 .card-port .card-body .body-card-img img { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 }
 
 @media (min-width:598px) {
@@ -299,7 +437,7 @@ body {
   transform: scale(1.1);
 }
 
-
+/* Container 2 */
 
 .container-2 {
   padding: 150px 15px;
@@ -322,14 +460,14 @@ body {
   width: 21px;
   height: 21px;
   margin: 0 10px 0 0;
-  background-color: black;
+  background-color: aqua;
 }
 .container-2 .circle {
   width: 15px;
   height: 15px;
   border-radius: 100%;
   margin: 0 10px 0 0;
-  background-color: black;
+  background-color: aqua;
 }
 .container-2 .button-container-2 {
   display: flex;
@@ -435,6 +573,157 @@ body {
   padding: 15px;
   margin: 0 0 50px 0;
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
+}
+
+/* Continaer 3 */
+.container-3 {
+  padding: 150px 30px;
+}
+.container-3 .squre {
+  width: 21px;
+  height: 21px;
+  margin: 0 10px 0 0;
+  background-color: aqua;
+}
+.container-3 .hub-say {
+  max-width: 600px;  
+  margin: 0 auto;
+}
+.container-3 .head-hub { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 50px 0;
+} 
+.container-3 .card-hub {
+  padding: 50px;
+  background-color: brown;
+  box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.57);
+}
+.container-3 .card-hub > * {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 30px 0;
+}
+.container-3 .card-hub > * label{ 
+  padding: 0 0 15px 0;
+}
+.container-3 .card-hub > * input ,.container-3 .card-hub > * textarea{ 
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  resize: none;
+  transition: 0.2s ease-in-out;
+  padding: 5px;
+}
+.container-3 input:focus,.container-3 textarea:focus {
+  border-bottom: 1px solid aqua;
+  outline: none;
+}
+.container-3 .card-hub .sub-but button {
+  width: 90px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 7px 15px;
+  border: none;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.374);
+}
+.container-3 .card-hub .sub-but button:hover { 
+  transform: scale(1.15);
+}
+.container-3 .card-hub .card-hub-fl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  padding: 0;
+}
+.container-3 .card-hub .card-hub-fl > *{ 
+  padding: 0 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.container-3 .card-hub .card-hub-fl label{ 
+  padding: 0 0 15px 0;
+}
+
+
+
+/* COntainer 4 */
+
+.container-4 {
+  padding: 150px 30px;
+}
+.container-4 .head-cont {
+  text-align: center;
+  padding: 15px 15px 60px 15px;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.container-4 .head-cont .head-content-4 { 
+  padding: 0 0 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-4 .head-cont br { 
+  display: none;
+} 
+.container-4 .head-cont .head-content-4 .squre{ 
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+  background-color: aqua;
+}
+.container-4 .card-port .card-body {
+  display: flex;
+  background-color: brown;
+  max-width: 650px;
+  position: relative;
+  right: 0;
+  margin: 0 auto;
+  box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.57);
+}
+.container-4 .card-port .card-body > * {
+  flex: 1;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+.container-4 .card-port .card-body .head-card-text > * {
+  margin: 0 0 20px 0;
+}
+.container-4 .card-port .card-body .head-card-text {
+  padding: 20px 25px;
+}
+.container-4 .card-port .card-body .head-card-text a { 
+  text-decoration: none;
+  background-color: white;
+  padding: 7px 15px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: -2px 2px 5px 0px black;
+}
+.container-4 .card-port .card-body .head-card-text .head-card-text-rel {
+  position: relative;
+}
+.container-4 .card-port .card-body .head-card-text .head-card-text-rel .squre-2{ 
+  width: 43px;
+  height: 40px;
+  background-color: aqua;
+  position: absolute;
+  left: -54px;
+  clip-path: inset(0 0 0 28.5px);
+}
+.container-4 .card-port .card-body .body-card-img { 
+}
+.container-4 .card-port .card-body .body-card-img img { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 }
 
