@@ -1,6 +1,5 @@
 
 nav .nav-self-brand .brand h5{ 
-  font-family: lemon;
 }
 
 @media (max-width:597px) {
@@ -14,22 +13,19 @@ nav .nav-self-brand .brand h5{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #CBDCEB;
+    background-color: #615EFC;
+    color: #EEEEEE;
   }
   nav .nav-self-brand .brand {
     display: flex;
     align-items: center;
     width: 100%;
   }
-  
-  nav .nav-self-brand .brand h5{ 
-    font-family: lemon;
-  }
   nav .nav-self-brand .brand .circle{
     width: 25px;
     height: 25px;
     border-radius: 100%;
-    background-color: aqua;
+    background-color: #7E8EF1;
     margin: 0 5px 0 0;
   }
   nav .nav-self-brand .button-nav {
@@ -64,6 +60,7 @@ nav .nav-self-brand .brand h5{
     opacity: 1;
     z-index: 999;
     transition: 0.2s linear;
+    color: #EEEEEE;
   }
   nav .nav-self-brand .button-nav .show.active {
     position: absolute;
@@ -78,7 +75,7 @@ nav .nav-self-brand .brand h5{
     opacity: 0;
     width: 100%;
     height: 100vh;
-    background-color: #CBDCEB;
+    background-color: #615EFC;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,7 +91,7 @@ nav .nav-self-brand .brand h5{
     height: 50px;
   }
   nav ul li a {
-    color: black;
+    color: #EEEEEE;
     font-weight: 500;
     font-size: 1.5rem;
     transition: 0.3s ease-in-out;
@@ -107,7 +104,7 @@ nav .nav-self-brand .brand h5{
     position: absolute;
     width: 100%;
     height: 30vh;
-    background-color: #CBDCEB;
+    background-color: #615EFC;
     z-index: -2;
   }
   
@@ -137,7 +134,7 @@ nav .nav-self-brand .brand h5{
     width: 25px;
     height: 25px;
     border-radius: 100%;
-    background-color: aqua;
+    background-color: #7E8EF1;
     margin: 0 5px 0 0;
   }
   nav .nav-self-brand .button-nav {
@@ -172,8 +169,8 @@ nav .nav-self-brand .brand h5{
     position: absolute;
     width: 34vw;
     height: 100vh;
-    background-color: #CBDCEB;
+    background-color: #615EFC;
     z-index: -100;
-    box-shadow: 0px 10px 200px 10px #CBDCEB;
+    box-shadow: 0px 10px 200px 10px #615efc88;
   }
 }

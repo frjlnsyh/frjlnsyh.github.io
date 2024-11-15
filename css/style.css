@@ -3,7 +3,7 @@ html.active {
   overflow: hidden;
 }
 body {
-  background-color: #F3F3E0;
+  background-color: #EEEEEE;
 }
 main .container {
 }
@@ -24,22 +24,21 @@ main .container > * {
   width: 90%;
   height: 240px;
   padding: 35px 0px;
-  background-color: #133E87;
+  background-color: #7E8EF1;
   color: black;
   text-align: center;
-  box-shadow: -10px 10px 15px 1px #94a1adb7;
+  box-shadow: -10px 10px 15px 1px rgba(0, 0, 0, 0.3);
 }
 .container .isi-content .content-head-1 .content-1-text {
   padding: 10px 0 10px 0;
 }
 .container .isi-content .content-head-1 .content-1-text h5{
   font-size: 1.3rem;
-  color: aqua;
 }
 .container .isi-content .content-head-1 .content-1-text hr{
   margin: 8px auto;
   width: 50px;
-  color: #CBDCEB;
+  color: #615EFC;
   border: 2.5px solid;
 }
 .container .isi-content .content-head-1 img{
@@ -53,8 +52,8 @@ main .container > * {
 }
 .container .isi-content .content-head-1 .button-content-2 a {
   text-decoration: none;
-  color: aqua;
-  background-color: #608BC1;
+  color: black;
+  background-color: #D1D8C5;
   padding: 8px 20px;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 1px #cbdceb91;
@@ -65,7 +64,7 @@ main .container > * {
   position: absolute;
   bottom: 4%;
   width: 100%;
-  background-color: white;
+  background-color: #EEEEEE;
   color: black;
 }
 .container .isi-content .content-head-1 .bottom-content-1 ul {
@@ -77,7 +76,7 @@ main .container > * {
 }
 .container .isi-content .content-head-1 .bottom-content-1 ul li a { 
   text-decoration: none;
-  color: black;
+  color: #615EFC;
 }
 .container .isi-content .content-head-2 {
   position: relative;
@@ -106,14 +105,14 @@ main .container > * {
   width: 21px;
   height: 21px;
   margin: 0 10px 0 0;
-  background-color: aqua;
+  background-color: #7E8EF1;
 }
 .container-2 .circle {
   width: 15px;
   height: 15px;
   border-radius: 100%;
   margin: 0 10px 0 0;
-  background-color: aqua;
+  background-color: #7E8EF1;
 }
 .container-2 .button-container-2 {
   display: flex;
@@ -125,8 +124,8 @@ main .container > * {
 }
 .container-2 .button-container-2 a {
   text-decoration: none;
-  color: aqua;
-  background-color: #608BC1;
+  color: black;
+  background-color: #D1D8C5;
   padding: 8px 20px;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 1px #cbdceb91;
@@ -146,8 +145,8 @@ main .container > * {
   align-items: center;
 }
 .container-2 .resume-content-pendidikan .resume-pendidikan {
-  background-color: #133E87;
-  color: aqua;
+  background-color: #615EFC;
+  color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
@@ -162,8 +161,8 @@ main .container > * {
   align-items: center;
 }
 .container-2 .resume-content-pengalaman .resume-pengalaman {
-  background-color: #133E87;
-  color: aqua;
+  background-color: #615EFC;
+  color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
@@ -180,8 +179,8 @@ main .container > * {
 .container-2 .resume-content-kemampuan .resume-kemampuan {
   display: flex;
   justify-content: space-between;
-  background-color: #133E87;
-  color: aqua;
+  background-color: #615EFC;
+  color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
@@ -196,8 +195,8 @@ main .container > * {
   align-items: center;
 }
 .container-2 .resume-content-hobi .resume-hobi {
-  background-color: #133E87;
-  color: aqua;
+  background-color: #615EFC;
+  color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
@@ -211,7 +210,7 @@ main .container > * {
   width: 21px;
   height: 21px;
   margin: 0 10px 0 0;
-  background-color: aqua;
+  background-color: #7E8EF1;
 }
 .container-3 .hub-say {
   margin: 80px 0 80px 0;
@@ -228,8 +227,9 @@ main .container > * {
   max-width: 60%;
   margin: 0 5px 0 auto;
   padding: 25px 70px 25px 25px;
-  background-color: brown;
-  box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.57);
+  background-color: #7E8EF1;
+  box-shadow: -10px 10px 15px 1px rgba(0, 0, 0, 0.3);
+  color: #EEEEEE;
 }
 .container-3 .card-hub > * {
   display: flex;
@@ -241,7 +241,7 @@ main .container > * {
 }
 .container-3 .card-hub > * input ,.container-3 .card-hub > * textarea{ 
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #EEEEEE;
   background-color: transparent;
   resize: none;
   transition: 0.2s ease-in-out;
@@ -298,14 +298,15 @@ main .container > * {
   width: 20px;
   height: 20px;
   margin: 0 10px 0 0;
-  background-color: aqua;
+  background-color: #7E8EF1;
 }
 .container-4 .card-port .card-body {
-  background-color: brown;
+  background-color: #7E8EF1;
   max-width: 80%;
   position: relative;
+  color: #EEEEEE;
   right: 0;
-  margin: 0 5px 0 auto;
+  margin: 0 5px 50px auto;
   box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.57);
 }
 .container-4 .card-port .card-body .head-card-text > * {
@@ -314,13 +315,22 @@ main .container > * {
 .container-4 .card-port .card-body .head-card-text {
   padding: 20px 25px;
 }
+.container-4 .card-port .card-body .head-card-text p{
+  height: 230px;
+  overflow-y: auto;
+}
+.container-4 .card-port .card-body .head-card-text p::-webkit-scrollbar { 
+  display: none;
+}
 .container-4 .card-port .card-body .head-card-text a { 
   text-decoration: none;
-  background-color: white;
-  padding: 7px 15px;
   color: black;
-  border-radius: 10px;
-  box-shadow: -2px 2px 5px 0px black;
+  background-color: #D1D8C5;
+  padding: 8px 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 1px #cbdceb91;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 .container-4 .card-port .card-body .head-card-text .head-card-text-rel {
   position: relative;
@@ -328,7 +338,7 @@ main .container > * {
 .container-4 .card-port .card-body .head-card-text .head-card-text-rel .squre-2{ 
   width: 43px;
   height: 40px;
-  background-color: aqua;
+  background-color: #D1D8C5;
   position: absolute;
   left: -54px;
   clip-path: inset(0 0 0 28.5px);
@@ -345,7 +355,7 @@ main .container > * {
 
 @media (min-width:598px) {
 body {
-    background-color: #F3F3E0;
+    background-color: #EEEEEE;
   }
   main {
   }
@@ -372,7 +382,7 @@ body {
     text-align: center;
     height: 350px;
     padding: 10px 15px;
-    background-color: #133E87;
+    background-color: #7E8EF1;
     width: 100%;
     box-shadow: -10px 10px 15px 1px #94a1adb7;
   }
@@ -384,16 +394,14 @@ body {
     border-radius: 100%;
   }
   .container .isi-content-2 .content-head-1 .content-1-text h5{ 
-    color: aqua;
     font-size: 1.8rem;
   }
   .container .isi-content-2 .content-head-1 .content-1-text hr{
     width: 20%;
-    border: 2px solid aqua;
+    border: 2px solid #615EFC;
     margin: 15px auto;
   } 
   .container .isi-content-2 .content-head-1 .content-1-text h6{
-    color: aqua;
     font-size: 1rem;
   }
   .container .isi-content-2 .content-head-1 .bottom-content-1 ul{
@@ -404,7 +412,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: white;    
+    background-color: #EEEEEE;    
   }
   .container .isi-content-2 .content-head-1 .bottom-content-1 ul > * {
     padding: 10px 15px;
@@ -412,7 +420,7 @@ body {
   }
   .container .isi-content-2 .content-head-1 .bottom-content-1 ul li a { 
     text-decoration: none;
-    color: black;
+    color: #615EFC;
   }
   .container .isi-content-2 .content-head-2 {
     width: 140%;
@@ -423,11 +431,11 @@ body {
 }
 .container .isi-content-2 .content-head-2 .button-content-2 a {
   text-decoration: none;
-  color: aqua;
-  background-color: #608BC1;
+  color: black;
+  background-color: #7E8EF1;
   padding: 8px 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px 3px 1px #133E87;
+  box-shadow: 3px 3px 3px 1px #D1D8C5;
   font-size: 0.8rem;
   font-weight: 600;
   transition: transform 0.2s ease-in-out; 
@@ -460,14 +468,14 @@ body {
   width: 21px;
   height: 21px;
   margin: 0 10px 0 0;
-  background-color: aqua;
+  background-color: #615EFC;
 }
 .container-2 .circle {
   width: 15px;
   height: 15px;
   border-radius: 100%;
   margin: 0 10px 0 0;
-  background-color: aqua;
+  background-color: #615EFC;
 }
 .container-2 .button-container-2 {
   display: flex;
@@ -479,14 +487,19 @@ body {
 }
 .container-2 .button-container-2 a {
   text-decoration: none;
-  color: aqua;
-  background-color: #608BC1;
+  color: #EEEEEE;
+  background-color: #7E8EF1;
   padding: 8px 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px 3px 1px #cbdceb91;
+  box-shadow: 3px 3px 3px 1px #D1D8C5;
   font-size: 0.8rem;
   font-weight: 600;
+  transition: transform 0.2s ease-in-out; 
+  display: inline-block;
 } 
+.container-2 .button-container-2 a:hover { 
+  transform: scale(1.1);
+}
 .container-2 .brand-container-2 {
   display: flex;
   justify-content: center;
@@ -502,8 +515,8 @@ body {
 .container-2 .resume-content-pendidikan .resume-pendidikan {
   display: flex;
   align-items: center;
-  background-color: #133E87;
-  color: aqua;
+  background-color: #7E8EF1;
+  color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
@@ -524,8 +537,8 @@ body {
   align-items: center;
 }
 .container-2 .resume-content-pengalaman .resume-pengalaman {
-  background-color: #133E87;
-  color: aqua;
+  background-color: #7E8EF1;
+  color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
@@ -552,8 +565,8 @@ body {
 .container-2 .resume-content-kemampuan .resume-kemampuan {
   display: flex;
   justify-content: space-around;
-  background-color: #133E87;
-  color: aqua;
+  background-color: #7E8EF1;
+  color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
@@ -568,8 +581,8 @@ body {
   align-items: center;
 }
 .container-2 .resume-content-hobi .resume-hobi {
-  background-color: #133E87;
-  color: aqua;
+  background-color: #7E8EF1;
+  color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.483);
@@ -583,7 +596,7 @@ body {
   width: 21px;
   height: 21px;
   margin: 0 10px 0 0;
-  background-color: aqua;
+  background-color: #615EFC;
 }
 .container-3 .hub-say {
   max-width: 600px;  
@@ -597,7 +610,7 @@ body {
 } 
 .container-3 .card-hub {
   padding: 50px;
-  background-color: brown;
+  background-color: #615EFC;
   box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.57);
 }
 .container-3 .card-hub > * {
@@ -607,10 +620,11 @@ body {
 }
 .container-3 .card-hub > * label{ 
   padding: 0 0 15px 0;
+  color: #EEEEEE;
 }
 .container-3 .card-hub > * input ,.container-3 .card-hub > * textarea{ 
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #EEEEEE;
   background-color: transparent;
   resize: none;
   transition: 0.2s ease-in-out;
@@ -620,18 +634,25 @@ body {
   border-bottom: 1px solid aqua;
   outline: none;
 }
-.container-3 .card-hub .sub-but button {
-  width: 90px;
-  background-color: white;
-  border-radius: 10px;
-  padding: 7px 15px;
-  border: none;
-  display: inline-block;
-  transition: transform 0.2s ease-in-out;
-  box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.374);
+
+.container-3 .card-hub .sub-but {
+  text-align: center;
+  max-width: 100px;
 }
-.container-3 .card-hub .sub-but button:hover { 
-  transform: scale(1.15);
+.container-3 .card-hub .sub-but a {
+  text-decoration: none;
+  color: #EEEEEE;
+  background-color: #7E8EF1;
+  padding: 8px 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 1px #D1D8C5;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: transform 0.2s ease-in-out; 
+  display: inline-block;
+}
+.container-3 .card-hub .sub-but a:hover { 
+  transform: scale(1.1);
 }
 .container-3 .card-hub .card-hub-fl {
   display: flex;
@@ -676,15 +697,15 @@ body {
   width: 20px;
   height: 20px;
   margin: 0 10px 0 0;
-  background-color: aqua;
+  background-color: #615EFC;
 }
 .container-4 .card-port .card-body {
   display: flex;
-  background-color: brown;
+  background-color: #615EFC;
   max-width: 650px;
   position: relative;
   right: 0;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.57);
 }
 .container-4 .card-port .card-body > * {
@@ -696,15 +717,27 @@ body {
   margin: 0 0 20px 0;
 }
 .container-4 .card-port .card-body .head-card-text {
+  color: #EEEEEE;
   padding: 20px 25px;
 }
+.container-4 .card-port .card-body .head-card-text p { 
+  height: 200px;
+  overflow-y: auto;
+}
+.container-4 .card-port .card-body .head-card-text p::-webkit-scrollbar { 
+  display: none;
+} 
 .container-4 .card-port .card-body .head-card-text a { 
   text-decoration: none;
-  background-color: white;
-  padding: 7px 15px;
-  color: black;
-  border-radius: 10px;
-  box-shadow: -2px 2px 5px 0px black;
+  color: #EEEEEE;
+  background-color: #7E8EF1;
+  padding: 8px 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 1px #D1D8C5;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: transform 0.2s ease-in-out; 
+  display: inline-block;
 }
 .container-4 .card-port .card-body .head-card-text .head-card-text-rel {
   position: relative;
@@ -712,7 +745,7 @@ body {
 .container-4 .card-port .card-body .head-card-text .head-card-text-rel .squre-2{ 
   width: 43px;
   height: 40px;
-  background-color: aqua;
+  background-color: #D1D8C5;
   position: absolute;
   left: -54px;
   clip-path: inset(0 0 0 28.5px);
@@ -732,7 +765,8 @@ body {
   @media (max-width:597px) {
     footer {
       position: relative;
-      background-color: #CBDCEB;
+      background-color: #615EFC;
+      color: #EEEEEE;
     }
     footer .footer-lits {
       display: flex;
@@ -743,7 +777,7 @@ body {
     footer .footer-lits > * {
     }
     footer .footer-lits a{ 
-      color: black;
+      color: #EEEEEE;
       text-decoration: none;
     }
     footer .footer-medsos {
@@ -756,10 +790,9 @@ body {
     footer .footer-medsos ul > * {
       padding: 5px 10px;
       font-size: 1.5rem;
-      color: black;
     }
     footer .footer-medsos ul li a { 
-      color: black;
+      color: #EEEEEE;
       text-decoration: none;
     }
     footer .footer-detail {
