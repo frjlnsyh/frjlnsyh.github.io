@@ -77,6 +77,11 @@ main .container > * {
 .container .isi-content .content-head-1 .bottom-content-1 ul li a { 
   text-decoration: none;
   color: #615EFC;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+.container .isi-content .content-head-1 .bottom-content-1 ul li a:hover { 
+  transform: scale(1.2);
 }
 .container .isi-content .content-head-2 {
   position: relative;
@@ -227,7 +232,7 @@ main .container > * {
   max-width: 60%;
   margin: 0 5px 0 auto;
   padding: 25px 70px 25px 25px;
-  background-color: #7E8EF1;
+  background-color: #615EFC;
   box-shadow: -10px 10px 15px 1px rgba(0, 0, 0, 0.3);
   color: #EEEEEE;
 }
@@ -251,9 +256,13 @@ main .container > * {
   border-bottom: 1px solid aqua;
   outline: none;
 }
-.container-3 .card-hub .sub-but button {
+.container-3 .card-hub .sub-but {
+  text-align: center;
+}
+.container-3 .card-hub .sub-but a {
   width: 90px;
-  background-color: white;
+  color: black;
+  background-color: #7E8EF1;
   border-radius: 10px;
   padding: 7px 15px;
   border: none;
@@ -301,7 +310,7 @@ main .container > * {
   background-color: #7E8EF1;
 }
 .container-4 .card-port .card-body {
-  background-color: #7E8EF1;
+  background-color: #615EFC;
   max-width: 80%;
   position: relative;
   color: #EEEEEE;
@@ -418,10 +427,16 @@ body {
     padding: 10px 15px;
     font-size: 1.4rem;
   }
-  .container .isi-content-2 .content-head-1 .bottom-content-1 ul li a { 
-    text-decoration: none;
-    color: #615EFC;
-  }
+  
+.container .isi-content-2 .content-head-1 .bottom-content-1 ul li a { 
+  text-decoration: none;
+  color: #615EFC;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+.container .isi-content-2 .content-head-1 .bottom-content-1 ul li a:hover { 
+  transform: scale(1.2);
+}
   .container .isi-content-2 .content-head-2 {
     width: 140%;
   }
@@ -515,7 +530,7 @@ body {
 .container-2 .resume-content-pendidikan .resume-pendidikan {
   display: flex;
   align-items: center;
-  background-color: #7E8EF1;
+  background-color: #615EFC;
   color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
@@ -537,7 +552,7 @@ body {
   align-items: center;
 }
 .container-2 .resume-content-pengalaman .resume-pengalaman {
-  background-color: #7E8EF1;
+  background-color: #615EFC;
   color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
@@ -565,7 +580,7 @@ body {
 .container-2 .resume-content-kemampuan .resume-kemampuan {
   display: flex;
   justify-content: space-around;
-  background-color: #7E8EF1;
+  background-color: #615EFC;
   color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
@@ -581,7 +596,7 @@ body {
   align-items: center;
 }
 .container-2 .resume-content-hobi .resume-hobi {
-  background-color: #7E8EF1;
+  background-color: #615EFC;
   color: #EEEEEE;
   padding: 15px;
   margin: 0 0 50px 0;
