@@ -58,33 +58,35 @@
                 <div class="squre"></div>
                 <h1><b>Ayo Mulai Berbicara</b></h1>
             </div>
-            <div class="card-hub">
-                <div class="card-hub-fl">
-                    <div class="f-name">
-                        <label for="">First Name *</label>
-                        <input type="text">
-                    </div>
-                    <div class="l-name">
-                        <label for="">Last Name *</label>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="email">
-                    <label for="">Email *</label>
-                    <input type="email">
-                </div>
-                <div class="sub">
-                    <label for="">Subject</label>
-                    <input type="text">
-                </div>
-                <div class="pesan-longtext">
-                    <label for="">Pesan</label>
-                    <textarea name="" id="" cols="10" rows="3"></textarea>
-                </div>
-                <div class="sub-but">
-                    <a type="submit">Kirim</a>
-                </div>
-            </div>
+            <form action="https://formspree.io/f/xgvenedo" method="POST">
+              <div class="card-hub">
+                  <div class="card-hub-fl">
+                      <div class="f-name">
+                          <label for="">First Name *</label>
+                          <input type="text" name="fname">
+                      </div>
+                      <div class="l-name">
+                          <label for="">Last Name *</label>
+                          <input type="text" name="lname">
+                      </div>
+                  </div>
+                  <div class="email">
+                      <label for="">Email *</label>
+                      <input type="email" name="email">
+                  </div>
+                  <div class="sub">
+                      <label for="">Subject</label>
+                      <input type="text" name="subject">
+                  </div>
+                  <div class="pesan-longtext">
+                      <label for="">Pesan</label>
+                      <textarea name="pesan" id="" cols="10" rows="3"></textarea>
+                  </div>
+                  <div class="sub-but">
+                      <button type="submit">Kirim</button>
+                  </div>
+              </div>
+            </form>
         </div>
       </div>
   </main>
